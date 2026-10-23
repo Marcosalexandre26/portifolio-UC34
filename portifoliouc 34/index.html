@@ -1,0 +1,539 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Marcos Alexandre | Portfólio</title>
+
+    <link rel="stylesheet" href="static/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="container cabecalho-conteudo">
+
+            <a href="#inicio" class="logo">MA<span>.</span></a>
+
+            <button
+                class="menu-botao"
+                id="menuBotao"
+                type="button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="menu"
+            >
+                ☰
+            </button>
+
+            <nav class="menu" id="menu" aria-label="Menu principal">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre mim</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <button
+                class="tema-botao"
+                id="temaBotao"
+                type="button"
+                aria-label="Alternar modo claro e escuro"
+            >
+                ☼
+            </button>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- INÍCIO -->
+        <section class="hero" id="inicio">
+
+            <div class="container hero-conteudo">
+
+                <div class="hero-texto">
+
+                    <p class="saudacao" id="saudacao">
+                        Olá!
+                    </p>
+
+                    <p class="pequeno-titulo">
+                        PORTFÓLIO • DESENVOLVIMENTO FRONT-END
+                    </p>
+
+                    <h1>
+                        Eu sou <span>Marcos Alexandre</span>
+                    </h1>
+
+                    <p class="descricao">
+                        Estudante de tecnologia apaixonado por criação de
+                        páginas web, interfaces modernas e experiências
+                        digitais.
+                    </p>
+
+                    <div class="botoes">
+                        <a href="#projetos" class="botao principal">
+                            Ver meus projetos
+                        </a>
+
+                        <a href="#contato" class="botao secundario">
+                            Entre em contato
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="foto-container">
+
+                    <div class="efeito-foto"></div>
+
+                    <img
+                        src="static/marcos.png"
+                        alt="Foto de Marcos Alexandre em um carrossel"
+                        class="foto-perfil"
+                    >
+
+                    <div class="foto-info">
+                        <strong>Marcos Alexandre</strong>
+                        <span>Front-end Developer</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE MIM -->
+        <section class="secao" id="sobre">
+
+            <div class="container duas-colunas">
+
+                <div>
+                    <p class="numero-secao">01 — SOBRE MIM</p>
+
+                    <h2>
+                        Conheça um pouco
+                        <span>sobre mim.</span>
+                    </h2>
+                </div>
+
+                <div class="texto-sobre">
+
+                    <p>
+                        Eu sou Marcos Alexandre e atualmente estou estudando
+                        tecnologia e desenvolvimento de páginas web. Tenho
+                        interesse em aprender cada vez mais sobre programação
+                        e criação de interfaces.
+                    </p>
+
+                    <p>
+                        Meu interesse pela tecnologia surgiu através das
+                        atividades e projetos do curso. Quero continuar
+                        desenvolvendo minhas habilidades em front-end,
+                        aprendendo novas tecnologias e transformando ideias
+                        em projetos funcionais.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HABILIDADES -->
+        <section class="secao habilidades" id="habilidades">
+
+            <div class="container">
+
+                <p class="numero-secao">02 — HABILIDADES</p>
+
+                <h2>
+                    Tecnologias que estou
+                    <span>aprendendo.</span>
+                </h2>
+
+                <div class="habilidades-grid">
+
+                    <article class="habilidade">
+                        <div class="icone">HTML</div>
+
+                        <h3>HTML5</h3>
+
+                        <p>
+                            Estruturação de páginas usando HTML semântico.
+                        </p>
+
+                        <span class="nivel">
+                            Confortável
+                        </span>
+                    </article>
+
+
+                    <article class="habilidade">
+                        <div class="icone">CSS</div>
+
+                        <h3>CSS3</h3>
+
+                        <p>
+                            Estilização, layouts, Flexbox, Grid e responsividade.
+                        </p>
+
+                        <span class="nivel">
+                            Praticando
+                        </span>
+                    </article>
+
+
+                    <article class="habilidade">
+                        <div class="icone">JS</div>
+
+                        <h3>JavaScript</h3>
+
+                        <p>
+                            Lógica, eventos e interatividade nas páginas.
+                        </p>
+
+                        <span class="nivel">
+                            Praticando
+                        </span>
+                    </article>
+
+
+                    <article class="habilidade">
+                        <div class="icone">FIG</div>
+
+                        <h3>Figma</h3>
+
+                        <p>
+                            Criação de protótipos e organização de interfaces.
+                        </p>
+
+                        <span class="nivel">
+                            Iniciante
+                        </span>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJETOS -->
+        <section class="secao projetos" id="projetos">
+
+            <div class="container">
+
+                <div class="titulo-projetos">
+
+                    <div>
+                        <p class="numero-secao">03 — PROJETOS</p>
+
+                        <h2>
+                            Alguns trabalhos
+                            <span>que já fiz.</span>
+                        </h2>
+                    </div>
+
+                    <p>
+                        Projetos desenvolvidos durante meus estudos
+                        e disponibilizados no GitHub.
+                    </p>
+
+                </div>
+
+
+                <div class="projetos-grid">
+
+                    <article class="projeto-card">
+
+                        <div class="projeto-imagem food">
+
+                            <div class="projeto-logo">
+                                FE
+                            </div>
+
+                        </div>
+
+                        <div class="projeto-conteudo">
+
+                            <p class="projeto-numero">PROJETO 01</p>
+
+                            <h3>FoodExpress</h3>
+
+                            <p>
+                                Projeto de uma página voltada para pedidos
+                                de comida, desenvolvido para praticar a
+                                criação de interfaces web.
+                            </p>
+
+                            <div class="tecnologias">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a
+                                href="https://github.com/Marcosalexandre26/foodeexpress"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="link-projeto"
+                            >
+                                Ver projeto no GitHub ↗
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="projeto-card">
+
+                        <div class="projeto-imagem carrinho">
+
+                            <div class="projeto-logo">
+                                CC
+                            </div>
+
+                        </div>
+
+                        <div class="projeto-conteudo">
+
+                            <p class="projeto-numero">PROJETO 02</p>
+
+                            <h3>Carrinhos de Compras</h3>
+
+                            <p>
+                                Projeto desenvolvido para praticar a criação
+                                de um sistema de carrinho de compras e
+                                interações utilizando JavaScript.
+                            </p>
+
+                            <div class="tecnologias">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a
+                                href="https://github.com/Marcosalexandre26/carrinhos-compras"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="link-projeto"
+                            >
+                                Ver projeto no GitHub ↗
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="projeto-card projeto-futuro">
+
+                        <div class="projeto-imagem futuro">
+
+                            <div class="projeto-logo">
+                                +
+                            </div>
+
+                        </div>
+
+                        <div class="projeto-conteudo">
+
+                            <p class="projeto-numero">PROJETO 03</p>
+
+                            <h3>Próximo projeto</h3>
+
+                            <p>
+                                Um novo projeto será adicionado aqui conforme
+                                eu continuar evoluindo meus conhecimentos
+                                em desenvolvimento web.
+                            </p>
+
+                            <div class="tecnologias">
+                                <span>Em breve</span>
+                            </div>
+
+                            <span class="link-projeto">
+                                Em desenvolvimento
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTATO -->
+        <section class="secao contato" id="contato">
+
+            <div class="container contato-grid">
+
+                <div class="contato-texto">
+
+                    <p class="numero-secao">04 — CONTATO</p>
+
+                    <h2>
+                        Vamos
+                        <span>conversar?</span>
+                    </h2>
+
+                    <p>
+                        Gostaria de conhecer meus projetos ou conversar
+                        sobre tecnologia? Envie uma mensagem pelo formulário.
+                    </p>
+
+                    <div class="redes">
+
+                        <a
+                            href="https://github.com/Marcosalexandre26"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub ↗
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <form id="formulario" novalidate>
+
+                    <div class="campo">
+
+                        <label for="nome">
+                            Nome
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            autocomplete="name"
+                        >
+
+                        <small id="erroNome" class="erro"></small>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="email">
+                            E-mail
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                        >
+
+                        <small id="erroEmail" class="erro"></small>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="mensagem">
+                            Mensagem
+                        </label>
+
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            rows="5"
+                        ></textarea>
+
+                        <small id="erroMensagem" class="erro"></small>
+
+                    </div>
+
+
+                    <div class="consentimento">
+
+                        <input
+                            type="checkbox"
+                            id="consentimento"
+                            name="consentimento"
+                        >
+
+                        <label for="consentimento">
+                            Concordo que os dados enviados sejam usados
+                            somente para responder minha mensagem.
+                        </label>
+
+                    </div>
+
+                    <small id="erroConsentimento" class="erro"></small>
+
+
+                    <button
+                        type="submit"
+                        class="botao principal enviar"
+                    >
+                        Enviar mensagem
+                    </button>
+
+                    <p
+                        id="mensagemFormulario"
+                        class="mensagem-formulario"
+                        aria-live="polite"
+                    ></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="container rodape">
+
+            <p>
+                © <span id="ano"></span> Marcos Alexandre.
+            </p>
+
+            <a href="#inicio">
+                Voltar ao topo ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
+```
